@@ -1,58 +1,142 @@
 * {
   background: none;
 }
+
 .big-container {
   height: 1200px;
-  width: 1500px;
-  background: url("../images/linear-vector-chart.jpg");
-  margin-top: -1.5rem;
-  margin-left: 0.05rem;
+  width: 1355px;
+  margin-top: -24px;
+  margin-left: 1.5px;
 }
-.big-container header h2 {
+
+.big-container header {
+  border: solid;
+  position: absolute;
+  background-color: paleturquoise;
+  background: url("../images/progress-bar.png") center;
+  padding: 10px 10px 10px 10px;
+  height: 260px;
+  width: 1357px;
+  margin-left: -10px;
+
+}
+
+img.golden-gear-logo {
   display: flex;
   flex-direction: column;
-  justify-content: column;
-  font-family: Orbitron;
-  font-size: 2rem;
-  margin: 2rem 0rem 0rem 0rem;
+  justify-content: flex-start;
+  height: 200px;
+  width: 200px;
+  padding: 16px;
+  border: solid;
+  margin: 60px 0px 0px 45px;
 }
+
+.big-container header h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: Orbitron;
+  font-size: 16px;
+  color: gold;
+  border: solid;
+  margin: -130px 0px 0px 115px;
+}
+
 .big-container header nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   font-family: IBM Plex Mono;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: regular;
-  padding: 5rem  blue;
-  margin-top: 5rem;
-  border: 0.01 solid;
+  padding: 0px;
+  margin: 20px 0px 0px 50px;
+  border: solid;
   text-decoration: none;
 }
-.big-container header nav a.main {
+
+.big-container header nav a.main{
+  color: yellow;
   text-decoration: none;
-  margin: 2rem 0rem 0rem 15rem;
+  margin: 32px 0px 0px 240px;
 }
-.big-container header nav a.about {
+
+.big-container header nav a.about{
+  color: yellow;
   text-decoration: none;
-  margin: 2rem 0rem 0rem 5rem;
+  margin: 32px 0px 0px 80px;
 }
-.big-container header nav a.login {
+
+.big-container header nav a.login{
+  color: yellow;
   text-decoration: none;
-  margin: 2rem 0rem 0rem 5rem;
+  margin: 32px 0px 0px 80px;
 }
-.big-container header nav a.signup {
+
+.big-container header nav a.signup{
+  color: yellow;
   text-decoration: none;
-  margin: 2rem 0rem 0rem 5rem;
+  margin: 32px 0px 0px 80px;
 }
+
 .big-container header nav a:hover {
   background-color: lightgreen;
 }
+
 .big-container header nav a:active {
   background-color: darkgreen;
 }
+
+img.quickspeed-image {
+  height: 300px;
+  width: 1377px;
+  border:solid;
+  margin-top: 284px;
+  margin-left: -10px;
+}
+
+.big-container section.intro {
+  display: flex;
+  flex-direction: column;
+  width: 1377px;
+  background-color: beige;
+  border: solid;
+  margin-top: -5px;
+  margin-left: -10px;
+  margin-right: 0px;
+}
+
+.big-container section.intro img {
+  height: 300px;
+  width: 600px;
+  border: solid;
+  margin: 10px 0px 0px 40px
+}
+
+.big-container section.intro h2 {
+  justify-content: center;
+  font-family: IBM Plex Mono;
+  font-size: 24px;
+  color: skyblue;
+  width: 500px;
+  padding: 30px;
+  border: solid;
+  margin: 10px 0px 0px 500px;
+}
+
+.big-container section.intro p {
+  font-family: Orbitron;
+  font-size: 18px;
+  width: 300px;
+  padding: 50px;
+  border: solid;
+  margin: 10px 0px 0px 50px;
+}
+
 .big-container footer p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 60rem;
+  margin-top: 100px;
 }

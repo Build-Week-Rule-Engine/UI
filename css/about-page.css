@@ -1,0 +1,175 @@
+.big-container {
+    height: 1200px;
+    width: 1355px;
+    margin-top: -24px;
+    margin-left: 1.5px;
+}
+
+.big-container header {
+    border: solid;
+    position: absolute;
+    background-color: paleturquoise;
+    background: url("../images/progress-bar.png") center;
+    padding: 10px 10px 10px 10px;
+    height: 260px;
+    width: 1357px;
+    margin-left: -10px;
+}
+
+.big-container header img.golden-gear-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200px;
+    width: 200px;
+    padding: 16px;
+    border: solid;
+    margin: 60px 0px 0px 45px;
+}
+
+.big-container header h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Orbitron;
+    font-size: 16px;
+    color: gold;
+    border: solid;
+    margin: -130px 0px 0px 115px;
+}
+
+.big-container header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: IBM Plex Mono;
+    font-size: 24px;
+    font-weight: regular;
+    padding: 0px;
+    margin: 20px 0px 0px 50px;
+    border: solid;
+}
+
+.big-container header nav a.main {
+    color: yellow;
+    text-decoration: none;
+    margin: 32px 0px 0px 240px;
+}
+
+.big-container header nav a.about {
+    color: yellow;
+    text-decoration: none;
+    margin: 32px 0px 9px 80px;
+}
+
+.big-container header nav a.login {
+    color: yellow;
+    text-decoration: none;
+    margin: 32px 0px 0px 80px;
+}
+
+.big-container header nav a.signup {
+    color: yellow;
+    text-decoration: none;
+    margin: 32px 0px 0px 80px;
+}
+
+.big-container header nav a:hover {
+    background-color: lightgreen;
+}
+
+.big-container header nav a:active {
+    background-color: darkgreen;
+}
+
+.big-container img.quickspeed-image {
+    height: 300px;
+    width: 1377px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+
+.big-container section.developers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 1000px;
+    width: 1377px;
+    border: solid;
+    margin: -4px 0px 0px -10px;
+}
+
+.big-container section.developers h2 {
+    font-family: IBM Flex-Mono;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.big-container section.developers section.project-manager h4{
+    font-family: IBM Flex-Mono; 
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.big-container section.developers section.project-manager img {
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
+.big-container section.developers section.react-2-developer h4 {
+    font-family: IBM Flex-Mono;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.big-container section.developers section.react-2-developer img {
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
+.big-container section.developers section.react-1-developer h4 {
+    font-family: IBM Flex-Mono;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.big-container section.developers section.react-1-developer img {
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
+.big-container section.developers section.user-interface-developer h4 {
+    font-family: IBM Flex-Mono;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.big-container section.developers section.user-interface-developer img {
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
+.big-container section.developers section.backend-developer h4 {
+    font-family: IBM Flex-Mono;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+.big-container section.developers section.backend-developer img {
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
+footer p.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
